@@ -10,7 +10,8 @@ Welcome to the official documentation and privacy policy hub for applications de
 **Developer:** MacaroniBit  
 **Contact:** [GitHub Repository](https://github.com/macaronibit/info)
 
-"MacaroniBit builds mobile applications as educational, utility, or entertainment tools. Depending on the specific application, our apps may be offered free of charge, supported by optional tips, feature third-party advertisements, or include paid in-app purchases."
+MacaroniBit builds mobile applications as educational, utility, or entertainment tools. Depending on the specific application, our apps may be offered free of charge, supported by optional tips, feature third-party advertisements, or include paid in-app purchases.
+
 ### Information Collection and Use
 * **No Personal Data Collection:** We **do not** collect, store, or share any personal identification information, names, email addresses, location data, or unique device identifiers.
 * **Local Storage Only:** App data, preferences, and learning progress are stored **locally on your device** and are never transmitted to remote servers.
