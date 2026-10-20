@@ -37,4 +37,16 @@ We may update our Privacy Policy from time to time. Changes are effective immedi
   * `INTERNET`: Optional, used only when opening external links (such as the support/tip jar page).
 
 ---
+
+### 📱 CalTracker
+- **Overview:** An offline-first, privacy-focused calorie, exercise, and macro tracking application designed for simple daily health and weight management.
+- **Key Features:**
+  - Precision Mifflin-St Jeor TDEE/BMR calorie calculations with custom weight loss rate sliders (0.0 to 2.0 lbs/week).
+  - Daily calorie gauge and nutrient macro breakdown (Protein, Carbs, Fat).
+  - Local Food Library with staple foods and custom meal logging.
+  - Cardio and Weight exercise logging using standard Effort (RPE 1–10) sliders.
+  - Historical trend visualization (7, 14, or 30 days) and per-day entry logging.
+  - 100% local database storage with automatic self-healing database backup.
+- **Permissions:**
+  - `INTERNET`: Optional, used only when opening external support/tip jar pages or documentation links.
 *© MacaroniBit. All rights reserved.*
