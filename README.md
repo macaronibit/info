@@ -30,7 +30,7 @@ We may update our Privacy Policy from time to time. Changes are effective immedi
 
 ## 2. App Documentation Hub
 
-### 📱 KanaPilot
+### 📱 KanaPilot–
 * **Overview:** An offline-first Japanese learning app for mastering Hiragana, Katakana, and 100 essential vocabulary words.
 * **Permissions:** 
   * `VIBRATE`: For subtle quiz haptic feedback.
@@ -49,4 +49,9 @@ We may update our Privacy Policy from time to time. Changes are effective immedi
   - 100% local database storage with automatic self-healing database backup.
 - **Permissions:**
   - `INTERNET`: Optional, used only when opening external support/tip jar pages or documentation links.
+-**Health & Medical Disclaimer**
+- CalTracker is an informational utility tool designed for general wellness and fitness tracking.
+- **Not Medical Advice:** CalTracker is not a medical device, and the information provided (including calorie targets, macro ratios, and exercise burn calculations) is for educational and informational purposes only.
+- **No Medical Claims or Prescriptions:** The app does not diagnose, treat, cure, or prescribe dietary or exercise regimens for any medical condition, eating disorder, or health concern.
+- **Consult a Healthcare Professional:** Always seek the advice of a qualified physician, registered dietitian, or certified healthcare provider before starting any dietary regimen, calorie restriction, or new exercise program.
 *© MacaroniBit. All rights reserved.*
