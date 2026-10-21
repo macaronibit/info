@@ -49,7 +49,7 @@ We may update our Privacy Policy from time to time. Changes are effective immedi
   - 100% local database storage with automatic self-healing database backup.
 - **Permissions:**
   - `INTERNET`: Optional, used only when opening external support/tip jar pages or documentation links.
--**Health & Medical Disclaimer**
+- **Health & Medical Disclaimer:**
 - CalTracker is an informational utility tool designed for general wellness and fitness tracking.
 - **Not Medical Advice:** CalTracker is not a medical device, and the information provided (including calorie targets, macro ratios, and exercise burn calculations) is for educational and informational purposes only.
 - **No Medical Claims or Prescriptions:** The app does not diagnose, treat, cure, or prescribe dietary or exercise regimens for any medical condition, eating disorder, or health concern.
