@@ -38,7 +38,7 @@ We may update our Privacy Policy from time to time. Changes are effective immedi
 
 ---
 
-### 📱 CalTracker
+### 📱 Easy K-Tally
 - **Overview:** An offline-first, privacy-focused calorie, exercise, and macro tracking application designed for simple daily health and weight management.
 - **Key Features:**
   - Precision Mifflin-St Jeor TDEE/BMR calorie calculations with custom weight loss rate sliders (0.0 to 2.0 lbs/week).
