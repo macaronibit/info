@@ -39,19 +39,21 @@ We may update our Privacy Policy from time to time. Changes are effective immedi
 ---
 
 ### 📱 Easy K-Tally
-- **Overview:** An offline-first, privacy-focused calorie, exercise, and macro tracking application designed for simple daily health and weight management.
-- **Key Features:**
-  - Precision Mifflin-St Jeor TDEE/BMR calorie calculations with custom weight loss rate sliders (0.0 to 2.0 lbs/week).
-  - Daily calorie gauge and nutrient macro breakdown (Protein, Carbs, Fat).
-  - Local Food Library with staple foods and custom meal logging.
-  - Cardio and Weight exercise logging using standard Effort (RPE 1–10) sliders.
-  - Historical trend visualization (7, 14, or 30 days) and per-day entry logging.
-  - 100% local database storage with automatic self-healing database backup.
-- **Permissions:**
-  - `INTERNET`: Optional, used only when opening external support/tip jar pages or documentation links.
-- **Health & Medical Disclaimer:**
-- CalTracker is an informational utility tool designed for general wellness and fitness tracking.
-- **Not Medical Advice:** CalTracker is not a medical device, and the information provided (including calorie targets, macro ratios, and exercise burn calculations) is for educational and informational purposes only.
-- **No Medical Claims or Prescriptions:** The app does not diagnose, treat, cure, or prescribe dietary or exercise regimens for any medical condition, eating disorder, or health concern.
-- **Consult a Healthcare Professional:** Always seek the advice of a qualified physician, registered dietitian, or certified healthcare provider before starting any dietary regimen, calorie restriction, or new exercise program.
-*© MacaroniBit. All rights reserved.*
+Overview: An offline-first, privacy-focused calorie, exercise, and macro tracking application designed for simple daily health and weight management.
+
+Key Features:
+
+Precision Mifflin-St Jeor TDEE/BMR calorie calculations with custom weight loss rate sliders (0.0 to 2.0 lbs/week).
+Daily calorie gauge and nutrient macro breakdown (Protein, Carbs, Fat).
+Local Food Library with staple foods and custom meal logging.
+Cardio and Weight exercise logging using standard Effort (RPE 1–10) sliders.
+Historical trend visualization (7, 14, or 30 days) and per-day entry logging.
+100% local database storage with automatic self-healing database backup.
+Permissions:
+
+INTERNET: Optional, used only when opening external support/tip jar pages or documentation links.
+Health & Medical Disclaimer:
+
+Easy K-Tally is an informational utility tool designed for general wellness and fitness tracking.
+
+Not Medical Advice: Easy K-Tally is not a medical device, and the information provided (including calorie targets, macro ratios, and exercise burn calculations) is for educational and informational purposes only.
