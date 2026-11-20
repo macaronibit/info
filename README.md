@@ -61,5 +61,20 @@ Not Medical Advice: Easy K-Tally is not a medical device, and the information pr
 
 ---
 
-### Artisan Lab: Baking and Recipes
+### 📱 Artisan Lab: Baking & Recipes
+* **Overview:** An offline-first recipe book and baking companion with a sourdough starter tracker, bake timer, and dough tools.
+* **Key Features:**
+  * Recipe book for baking and savory dishes, with categories, ratings, and notes.
+  * Lab versions: try changes to a recipe as named versions, alongside the original.
+  * Dough tools: set a target hydration (counting starter water) and scale recipes.
+  * Sourdough starter tracker with feeding logs and a rise & temperature graph.
+  * Bake timer with an on-time alert, even if the app is closed or the phone restarts.
+  * Bake photos and recipe sharing by text or QR code.
+* **Permissions:**
+  * `POST_NOTIFICATIONS`: To alert you when a bake timer finishes.
+  * `SCHEDULE_EXACT_ALARM`: So the bake timer alert arrives on time.
+  * `RECEIVE_BOOT_COMPLETED`: To restore a running bake timer after the phone restarts.
+* **Photos & Camera:** The app opens your device's own camera app or photo picker. Only the photo you take or choose is copied into the app's private storage; the app does not request camera or storage permissions.
+* **QR Code Scanning:** Scanning a shared recipe uses the Google code scanner from Google Play services. The image is processed on your device and the app only receives the text in the code. Google Play services may collect diagnostic data under [Google's Privacy Policy](https://policies.google.com/privacy).
+
 
