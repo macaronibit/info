@@ -38,7 +38,7 @@ We may update our Privacy Policy from time to time. Changes are effective immedi
 
 ---
 
-### 📱 Easy K-Tally
+### 📱 Calbacus
 Overview: An offline-first, privacy-focused calorie, exercise, and macro tracking application designed for simple daily health and weight management.
 
 Key Features:
@@ -57,3 +57,9 @@ Health & Medical Disclaimer:
 Easy K-Tally is an informational utility tool designed for general wellness and fitness tracking.
 
 Not Medical Advice: Easy K-Tally is not a medical device, and the information provided (including calorie targets, macro ratios, and exercise burn calculations) is for educational and informational purposes only.
+
+
+---
+
+### Artisan Lab: Baking and Recipes
+
