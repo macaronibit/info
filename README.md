@@ -35,8 +35,8 @@ We may update our Privacy Policy from time to time. Changes are effective immedi
 ### 📱 KanaPilot
 * **Overview:** An offline Japanese learning app for mastering Hiragana and Katakana, plus 112 beginner vocabulary words (56 in each script).
 * **Key Features:**
-  * Study mode with flip cards, swipe navigation, shuffle, and saved progress.
-  * Timed test mode (5 seconds per character) with session results.
+  * Study mode with flip cards, swipe navigation, and shuffle.
+  * Timed test mode (5 seconds per character) with session results. Your mastery of each character is saved as you practice.
   * Character library and vocabulary lists.
   * Japanese pronunciation using your device's built-in text-to-speech voice.
   * Optional tips through Google Play.
