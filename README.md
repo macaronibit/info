@@ -1,24 +1,28 @@
+Here's the full page. On GitHub, open README.md in macaronibit/info, click the pencil (Edit) icon, select all, and paste this over it:
+
 # MacaroniBit - Privacy Policy & App Documentation
 
-Welcome to the official documentation and privacy policy hub for applications developed by **MacaroniBit**. 
+Welcome to the official documentation and privacy policy hub for applications developed by **MacaroniBit**.
 
 ---
 
 ## 1. General Privacy Policy
 
-**Effective Date:** January 1, 2026  
-**Developer:** MacaroniBit  
-**Contact:** [GitHub Repository](https://github.com/macaronibit/info)
+**Effective Date:** January 1, 2026
+**Last Updated:** November 20, 2026
+**Developer:** MacaroniBit
+**Contact:** [macaronibit@gmail.com](mailto:macaronibit@gmail.com) · [GitHub Repository](https://github.com/macaronibit/info)
 
-MacaroniBit builds mobile applications as educational, utility, or entertainment tools. Depending on the specific application, our apps may be offered free of charge, supported by optional tips, feature third-party advertisements, or include paid in-app purchases.
+MacaroniBit builds mobile applications as educational, utility, or entertainment tools. Depending on the specific application, our apps may be offered free of charge, supported by optional tips, or include paid in-app purchases.
 
 ### Information Collection and Use
 * **No Personal Data Collection:** We **do not** collect, store, or share any personal identification information, names, email addresses, location data, or unique device identifiers.
-* **Local Storage Only:** App data, preferences, and learning progress are stored **locally on your device** and are never transmitted to remote servers.
-* **Camera Usage (For Camera-Enabled Apps):** Some applications developed by MacaroniBit may request access to your device's camera. 
-  * **How camera data is handled:** Camera feeds or images captured within our apps are processed **entirely on your device in real-time**. 
-  * We **do not** record, store, upload, or transmit any photos, videos, or camera frames to external servers or third parties.
+* **Local Storage Only:** App data, preferences, and learning progress are stored **locally on your device** and are never sent to MacaroniBit or any server we run. Data leaves your device only when you choose to share it (for example, sharing a recipe), or through Android's own backup to your Google account if you have it turned on.
+* **Camera Usage (For Camera-Enabled Apps):** Some applications developed by MacaroniBit may request access to your device's camera.
+  * **How camera data is handled:** Camera feeds or images captured within our apps are processed **entirely on your device in real-time**.
+  * We **do not** upload or transmit any photos, videos, or camera frames to external servers or third parties. Live camera frames are never saved. A photo is kept only when you choose to add it (for example, a bake photo), and it stays in the app's private storage on your device.
 * **No Third-Party Trackers:** We do not integrate tracking SDKs, analytics, or third-party advertising networks.
+* **Google Services:** Some apps use Google components for specific features: Google ML Kit and the Google code scanner (on-device barcode, QR, and text reading) and Google Play Billing (optional tips and purchases). These run under [Google's Privacy Policy](https://policies.google.com/privacy), and Google Play services may collect diagnostic information. See each app's section below for what it uses.
 
 ### Children's Privacy
 Our applications are safe for users of all ages. Because we do not collect any personal data, we knowingly collect no information from children under 13.
@@ -31,33 +35,34 @@ We may update our Privacy Policy from time to time. Changes are effective immedi
 ## 2. App Documentation Hub
 
 ### 📱 KanaPilot
-* **Overview:** An offline-first Japanese learning app for mastering Hiragana, Katakana, and 100 essential vocabulary words.
-* **Permissions:** 
+* **Overview:** An offline Japanese learning app for mastering Hiragana and Katakana, plus 112 beginner vocabulary words (56 in each script).
+* **Key Features:**
+  * Study mode with flip cards, swipe navigation, shuffle, and saved progress.
+  * Timed test mode (5 seconds per character) with session results.
+  * Character library and vocabulary lists.
+  * Japanese pronunciation using your device's built-in text-to-speech voice.
+  * Optional tips through Google Play.
+* **Permissions:**
   * `VIBRATE`: For subtle quiz haptic feedback.
-  * `INTERNET`: Optional, used only when opening external links (such as the support/tip jar page).
+  * `BILLING`: Added by Google Play Billing, used only for optional tips.
+  * `INTERNET` / `ACCESS_NETWORK_STATE`: Added by Google Play Billing so tips can be processed through Google Play. The app itself sends no data anywhere.
 
 ---
 
 ### 📱 Calbacus
-Overview: An offline-first, privacy-focused calorie, exercise, and macro tracking application designed for simple daily health and weight management.
-
-Key Features:
-
-Precision Mifflin-St Jeor TDEE/BMR calorie calculations with custom weight loss rate sliders (0.0 to 2.0 lbs/week).
-Daily calorie gauge and nutrient macro breakdown (Protein, Carbs, Fat).
-Local Food Library with staple foods and custom meal logging.
-Cardio and Weight exercise logging using standard Effort (RPE 1–10) sliders.
-Historical trend visualization (7, 14, or 30 days) and per-day entry logging.
-100% local database storage with automatic self-healing database backup.
-Permissions:
-
-INTERNET: Optional, used only when opening external support/tip jar pages or documentation links.
-Health & Medical Disclaimer:
-
-Easy K-Tally is an informational utility tool designed for general wellness and fitness tracking.
-
-Not Medical Advice: Easy K-Tally is not a medical device, and the information provided (including calorie targets, macro ratios, and exercise burn calculations) is for educational and informational purposes only.
-
+* **Overview:** An offline, privacy-focused calorie, macro, and exercise tracker designed for simple daily health and weight management.
+* **Key Features:**
+  * Daily calorie and macro targets from the Mifflin-St Jeor equation, adjusted for activity level and a weight-loss goal of 0 to 2 lbs per week, with an optional manual calorie goal.
+  * Today dashboard: calories left, eaten, and burned, plus progress toward protein, carb, and fat targets.
+  * Meal logging from a food library of staple foods and your own saved foods.
+  * Cardio and weight exercise logging with an effort (RPE 1–10) slider and an estimated calorie burn.
+  * History: calorie trend chart and per-day summaries for the last 7, 14, or 30 days, with editing of past days.
+  * Imperial or metric units.
+  * Optional tips through Google Play.
+* **Permissions:**
+  * `BILLING`: Added by Google Play Billing, used only for optional tips.
+  * `INTERNET` / `ACCESS_NETWORK_STATE`: Added by Google Play Billing so tips can be processed through Google Play. The app itself sends no data anywhere.
+* **Health & Medical Disclaimer:** Calbacus is an informational utility tool designed for general wellness and fitness tracking. It is not a medical device, and the information provided (including calorie targets, macro ratios, and exercise burn calculations) is for educational and informational purposes only and is not medical advice.
 
 ---
 
@@ -74,6 +79,7 @@ Not Medical Advice: Easy K-Tally is not a medical device, and the information pr
   * `POST_NOTIFICATIONS`: To alert you when a bake timer finishes.
   * `SCHEDULE_EXACT_ALARM`: So the bake timer alert arrives on time.
   * `RECEIVE_BOOT_COMPLETED`: To restore a running bake timer after the phone restarts.
+  * `INTERNET` / `ACCESS_NETWORK_STATE`: Added by Google Play services for the QR code scanner. The app itself sends no data anywhere.
 * **Photos & Camera:** The app opens your device's own camera app or photo picker. Only the photo you take or choose is copied into the app's private storage; the app does not request camera or storage permissions.
 * **QR Code Scanning:** Scanning a shared recipe uses the Google code scanner from Google Play services. The image is processed on your device and the app only receives the text in the code. Google Play services may collect diagnostic data under [Google's Privacy Policy](https://policies.google.com/privacy).
 * **Backups:** If Android backup is on, Android may back up your recipes, starter logs, and settings to your Google account. Photos are not included.
@@ -92,6 +98,6 @@ Not Medical Advice: Easy K-Tally is not a medical device, and the information pr
 * **Permissions:**
   * `CAMERA`: For sampling colors, measuring swatches, and scanning paint barcodes and labels. Frames are processed on your device in real time and are never saved or uploaded.
   * `BILLING`: Added by Google Play Billing, used only for optional tips.
+  * `INTERNET` / `ACCESS_NETWORK_STATE`: Added by Google Play Billing so tips can be processed through Google Play. The app itself sends no data anywhere.
 * **Barcode & Label Scanning:** Uses Google ML Kit with on-device models. Nothing is sent to a server.
 * **Optional Tips:** Tips are handled by Google Play under [Google's Privacy Policy](https://policies.google.com/privacy). Nothing in the app is locked behind a tip.
-
