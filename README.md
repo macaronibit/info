@@ -1,5 +1,3 @@
-Here's the full page. On GitHub, open README.md in macaronibit/info, click the pencil (Edit) icon, select all, and paste this over it:
-
 # MacaroniBit - Privacy Policy & App Documentation
 
 Welcome to the official documentation and privacy policy hub for applications developed by **MacaroniBit**.
@@ -25,7 +23,7 @@ MacaroniBit builds mobile applications as educational, utility, or entertainment
 * **Google Services:** Some apps use Google components for specific features: Google ML Kit and the Google code scanner (on-device barcode, QR, and text reading) and Google Play Billing (optional tips and purchases). These run under [Google's Privacy Policy](https://policies.google.com/privacy), and Google Play services may collect diagnostic information. See each app's section below for what it uses.
 
 ### Children's Privacy
-Our applications are safe for users of all ages. Because we do not collect any personal data, we knowingly collect no information from children under 13.
+Our applications are not directed at children under 13. Because we do not collect any personal data, we do not knowingly collect information from anyone, including children under 13.
 
 ### Changes to This Privacy Policy
 We may update our Privacy Policy from time to time. Changes are effective immediately after being posted on this repository.
