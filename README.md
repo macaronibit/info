@@ -76,5 +76,22 @@ Not Medical Advice: Easy K-Tally is not a medical device, and the information pr
   * `RECEIVE_BOOT_COMPLETED`: To restore a running bake timer after the phone restarts.
 * **Photos & Camera:** The app opens your device's own camera app or photo picker. Only the photo you take or choose is copied into the app's private storage; the app does not request camera or storage permissions.
 * **QR Code Scanning:** Scanning a shared recipe uses the Google code scanner from Google Play services. The image is processed on your device and the app only receives the text in the code. Google Play services may collect diagnostic data under [Google's Privacy Policy](https://policies.google.com/privacy).
+* **Backups:** If Android backup is on, Android may back up your recipes, starter logs, and settings to your Google account. Photos are not included.
 
+---
+
+### 📱 Pigment Lab
+* **Overview:** A color mixing assistant for painters. Pick or scan a target color and Pigment Lab suggests a paint recipe to match it, then checks your mix with the camera.
+* **Key Features:**
+  * Paint-like (spectral Kubelka–Munk) color mixing, so blue and yellow make green just like real pigment.
+  * Recipe matching for acrylics, oils, and watercolors, scored with the CIEDE2000 color-difference standard.
+  * Camera color sampling, with white-paper calibration for more accurate swatch readings.
+  * "Check My Mix": measure your mixed paint and see what's off and which paint to add.
+  * Paint inventory and custom paints, with barcode and label scanning to add tubes quickly.
+  * Vault for saving colors and their recipes to projects.
+* **Permissions:**
+  * `CAMERA`: For sampling colors, measuring swatches, and scanning paint barcodes and labels. Frames are processed on your device in real time and are never saved or uploaded.
+  * `BILLING`: Added by Google Play Billing, used only for optional tips.
+* **Barcode & Label Scanning:** Uses Google ML Kit with on-device models. Nothing is sent to a server.
+* **Optional Tips:** Tips are handled by Google Play under [Google's Privacy Policy](https://policies.google.com/privacy). Nothing in the app is locked behind a tip.
 
