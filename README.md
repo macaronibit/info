@@ -20,7 +20,7 @@ MacaroniBit builds mobile applications as educational, utility, or entertainment
   * **How camera data is handled:** Camera feeds or images captured within our apps are processed **entirely on your device in real-time**.
   * We **do not** upload or transmit any photos, videos, or camera frames to external servers or third parties. Live camera frames are never saved. A photo is kept only when you choose to add it (for example, a bake photo), and it stays in the app's private storage on your device.
 * **No Third-Party Trackers:** We do not integrate tracking SDKs, analytics, or third-party advertising networks.
-* **Google Services:** Some apps use Google components for specific features: Google ML Kit and the Google code scanner (on-device barcode, QR, and text reading) and Google Play Billing (optional tips and purchases). These run under [Google's Privacy Policy](https://policies.google.com/privacy), and Google Play services may collect diagnostic information. See each app's section below for what it uses.
+* **Google Services:** Some apps use Google components for specific features: Google ML Kit and the Google code scanner (on-device barcode, QR, and text reading), Google Play Billing (optional tips and purchases), and Google Play In-App Review (an occasional prompt to rate the app; the app never sees your rating). These run under [Google's Privacy Policy](https://policies.google.com/privacy), and Google Play services may collect diagnostic information. See each app's section below for what it uses.
 
 ### Children's Privacy
 Our applications are not directed at children under 13. Because we do not collect any personal data, we do not knowingly collect information from anyone, including children under 13.
