@@ -30,7 +30,7 @@ We may update our Privacy Policy from time to time. Changes are effective immedi
 
 ## 2. App Documentation Hub
 
-### 📱 KanaPilot–
+### 📱 KanaPilot
 * **Overview:** An offline-first Japanese learning app for mastering Hiragana, Katakana, and 100 essential vocabulary words.
 * **Permissions:** 
   * `VIBRATE`: For subtle quiz haptic feedback.
