@@ -93,9 +93,11 @@ We may update our Privacy Policy from time to time. Changes are effective immedi
   * "Check My Mix": measure your mixed paint and see what's off and which paint to add.
   * Paint inventory and custom paints, with barcode and label scanning to add tubes quickly.
   * Vault for saving colors and their recipes to projects.
+* **Your Data:** Your paints, projects, saved colors, and settings are stored only on your device, in the app's private storage. No accounts, ads, or tracking. The developer never receives your data. Uninstalling the app or clearing its data deletes it.
 * **Permissions:**
   * `CAMERA`: For sampling colors, measuring swatches, and scanning paint barcodes and labels. Frames are processed on your device in real time and are never saved or uploaded.
   * `BILLING`: Added by Google Play Billing, used only for optional tips.
-  * `INTERNET` / `ACCESS_NETWORK_STATE`: Added by Google Play Billing so tips can be processed through Google Play. The app itself sends no data anywhere.
-* **Barcode & Label Scanning:** Uses Google ML Kit with on-device models. Nothing is sent to a server.
-* **Optional Tips:** Tips are handled by Google Play under [Google's Privacy Policy](https://policies.google.com/privacy). Nothing in the app is locked behind a tip.
+  * `INTERNET` / `ACCESS_NETWORK_STATE`: Added by Google Play Billing so tips can be processed through Google Play, and used by Google ML Kit to send the diagnostics described below. The app sends no other data.
+* **Barcode & Label Scanning:** Uses Google ML Kit with on-device models. Camera images and the text read from them are never sent to a server. To monitor and improve ML Kit, Google collects basic diagnostics: device information (manufacturer, model, OS version), the app's package name and version, a random per-installation identifier that does not identify you or your device, and performance and error data. This is sent encrypted over HTTPS, used for diagnostics and analytics, and not shared with third parties. See Google's [ML Kit data disclosure](https://developers.google.com/ml-kit/android-data-disclosure) and [Privacy Policy](https://policies.google.com/privacy).
+* **Optional Tips:** Tips are handled by Google Play under [Google's Privacy Policy](https://policies.google.com/privacy). We never receive your payment details. Nothing in the app is locked behind a tip.
+* **Rating the App:** After you save a color to the Vault, the app may ask Google Play to show its review prompt. Google Play decides whether it appears, and the app never sees your rating or review.
