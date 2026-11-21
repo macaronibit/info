@@ -7,7 +7,7 @@ Welcome to the official documentation and privacy policy hub for applications de
 ## 1. General Privacy Policy
 
 **Effective Date:** January 1, 2026
-**Last Updated:** November 20, 2026
+**Last Updated:** November 21, 2026
 **Developer:** MacaroniBit
 **Contact:** [macaronibit@gmail.com](mailto:macaronibit@gmail.com) · [GitHub Repository](https://github.com/macaronibit/info)
 
@@ -19,7 +19,7 @@ MacaroniBit builds mobile applications as educational, utility, or entertainment
 * **Camera Usage (For Camera-Enabled Apps):** Some applications developed by MacaroniBit may request access to your device's camera.
   * **How camera data is handled:** Camera feeds or images captured within our apps are processed **entirely on your device in real-time**.
   * We **do not** upload or transmit any photos, videos, or camera frames to external servers or third parties. Live camera frames are never saved. A photo is kept only when you choose to add it (for example, a bake photo), and it stays in the app's private storage on your device.
-* **No Third-Party Trackers:** We do not integrate tracking SDKs, analytics, or third-party advertising networks.
+* **No Third-Party Trackers:**  We do not add our own analytics, tracking SDKs, or third-party advertising networks. Some apps use Google libraries (listed below) that send Google basic diagnostics, as described in each app's section..
 * **Google Services:** Some apps use Google components for specific features: Google ML Kit and the Google code scanner (on-device barcode, QR, and text reading), Google Play Billing (optional tips and purchases), and Google Play In-App Review (an occasional prompt to rate the app; the app never sees your rating). These run under [Google's Privacy Policy](https://policies.google.com/privacy), and Google Play services may collect diagnostic information. See each app's section below for what it uses.
 
 ### Children's Privacy
