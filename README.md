@@ -85,20 +85,21 @@ We may update our Privacy Policy from time to time. Changes are effective immedi
 ---
 
 ### 📱 Pigment Lab
-* **Overview:** A color mixing assistant for painters. Pick or scan a target color and Pigment Lab suggests a paint recipe to match it, then checks your mix with the camera.
+* **Overview:** A color mixing assistant for painters. Capture or pick a target color and Pigment Lab suggests a paint recipe to match it from the paints you own.
 * **Key Features:**
   * Paint-like (spectral Kubelka–Munk) color mixing, so blue and yellow make green just like real pigment.
   * Recipe matching for acrylics, oils, and watercolors, scored with the CIEDE2000 color-difference standard.
-  * Camera color sampling, with white-paper calibration for more accurate swatch readings.
-  * "Check My Mix": measure your mixed paint and see what's off and which paint to add.
-  * Paint inventory and custom paints, with barcode and label scanning to add tubes quickly.
+  * Camera color sampling and swatch measuring, with optional white-paper calibration.
+  * Add your own paints by pigment code, from a swatch photo, or from an image of a swatch.
   * Vault for saving colors and their recipes to projects.
-* **Your Data:** Your paints, projects, saved colors, and settings are stored only on your device, in the app's private storage. No accounts, ads, or tracking. The developer never receives your data. Uninstalling the app or clearing its data deletes it.
+* **Your Data:** Your paints, projects, saved colors, notes, and settings are stored in the app's private storage on your device. No accounts, ads, or tracking. The app never sends us (the developer) your colors, paints, projects, notes, or images. Google Play gives developers reports such as tip orders, app statistics, crash reports, and reviews. Uninstalling the app or clearing its data deletes your data from the device. A backup copy may remain in your Google account (see Backups).
+* **Camera:** Used to sample colors and measure paint swatches. Frames are processed on your device in real time and are never saved, uploaded, or sent to anyone.
+* **Images You Pick:** When you add a paint with "From image", Android lets the app read only the image you pick. The app processes it on your device, saves only the color you choose, and never saves, uploads, or sends the image.
 * **Permissions:**
-  * `CAMERA`: For sampling colors, measuring swatches, and scanning paint barcodes and labels. Frames are processed on your device in real time and are never saved or uploaded.
+  * `CAMERA`: For sampling colors and measuring swatches.
   * `BILLING`: Added by Google Play Billing, used only for optional tips.
-  * `INTERNET` / `ACCESS_NETWORK_STATE`: Added by Google Play Billing so tips can be processed through Google Play, and used by Google ML Kit to send the diagnostics described below. The app sends no other data.
-* **Barcode & Label Scanning:** Uses Google ML Kit with on-device models. Camera images and the text read from them are never sent to a server. To monitor and improve ML Kit, Google collects basic diagnostics: device information (manufacturer, model, OS version), the app's package name and version, a random per-installation identifier that does not identify you or your device, and performance and error data. This is sent encrypted over HTTPS, used for diagnostics and analytics, and not shared with third parties. See Google's [ML Kit data disclosure](https://developers.google.com/ml-kit/android-data-disclosure) and [Privacy Policy](https://policies.google.com/privacy).
-* **Optional Tips:** Tips are handled by Google Play under [Google's Privacy Policy](https://policies.google.com/privacy). We never receive your payment details. Nothing in the app is locked behind a tip.
+  * `INTERNET` / `ACCESS_NETWORK_STATE`: Added by Google Play Billing, to process tips and to send its diagnostic and usage information to Google. Our own code sends no data.
+* **Optional Tips:** Tips are handled by Google Play Billing under [Google's Privacy Policy](https://policies.google.com/privacy). Google Play Billing includes a Google component that may send diagnostic and usage information to Google. We never receive your payment details. Nothing in the app is locked behind a tip.
 * **Rating the App:** After you save a color to the Vault, the app may ask Google Play to show its review prompt. Google Play decides whether it appears, and the app never sees your rating or review.
-* **Backups:** If Android backup is on, Android may back up your paints, projects, and settings to your Google account.
+* **Backups:** If Android backup is on, Android may back up your paints, projects, and settings to your Google account, under [Google's Privacy Policy](https://policies.google.com/privacy).
+* **Children:** The app is not directed at children under 13 and does not knowingly collect information from anyone.
