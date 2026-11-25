@@ -7,7 +7,7 @@ Welcome to the official documentation and privacy policy hub for applications de
 ## 1. General Privacy Policy
 
 **Effective Date:** January 1, 2026
-**Last Updated:** November 21, 2026
+**Last Updated:** November 25, 2026
 **Developer:** MacaroniBit
 **Contact:** [macaronibit@gmail.com](mailto:macaronibit@gmail.com) · [GitHub Repository](https://github.com/macaronibit/info)
 
@@ -50,17 +50,22 @@ We may update our Privacy Policy from time to time. Changes are effective immedi
 ### 📱 Calbacus
 * **Overview:** An offline, privacy-focused calorie, macro, and exercise tracker designed for simple daily health and weight management.
 * **Key Features:**
-  * Daily calorie and macro targets from the Mifflin-St Jeor equation, adjusted for activity level and a weight-loss goal of 0 to 2 lbs per week, with an optional manual calorie goal.
+  * Daily calorie and macro targets from the Mifflin-St Jeor equation, adjusted for activity level and a weight-loss goal of 0 to 2 lbs per week, with optional manual calorie and protein goals.
   * Today dashboard: calories left, eaten, and burned, plus progress toward protein, carb, and fat targets.
-  * Meal logging from a food library of staple foods and your own saved foods.
+  * Meal logging from a starter food library of staple foods and popular grocery items, plus your own saved foods.
   * Cardio and weight exercise logging with an effort (RPE 1–10) slider and an estimated calorie burn.
-  * History: calorie trend chart and per-day summaries for the last 7, 14, or 30 days, with editing of past days.
+  * History: calorie trend chart and per-day summaries for the last 7, 14, or 30 days, with editing of past days and copying a day's meals to today.
   * Imperial or metric units.
   * Optional tips through Google Play.
+* **Your Data:** Your profile, meals, exercises, foods, and settings are stored in the app's private storage on your device. No accounts, ads, or tracking. The app never sends us (the developer) any of your information. Profile → Reset Account Data deletes it, as does uninstalling the app or clearing its data. A backup copy may remain in your Google account (see Backups).
 * **Permissions:**
   * `BILLING`: Added by Google Play Billing, used only for optional tips.
-  * `INTERNET` / `ACCESS_NETWORK_STATE`: Added by Google Play Billing so tips can be processed through Google Play. The app itself sends no data anywhere.
-* **Health & Medical Disclaimer:** Calbacus is an informational utility tool designed for general wellness and fitness tracking. It is not a medical device, and the information provided (including calorie targets, macro ratios, and exercise burn calculations) is for educational and informational purposes only and is not medical advice.
+  * `INTERNET` / `ACCESS_NETWORK_STATE`: Added by Google Play Billing, to process tips and to send its diagnostic and usage information to Google. Our own code sends no data.
+* **Optional Tips:** Tips are handled by Google Play Billing under [Google's Privacy Policy](https://policies.google.com/privacy). We never receive your payment details. Nothing in the app is locked behind a tip.
+* **Rating the App:** After you log a meal, the app may ask Google Play to show its review prompt. Google Play decides whether it appears, and the app never sees your rating or review.
+* **Backups:** If Android backup is on, Android may back up your logs, foods, and settings to your Google account, under [Google's Privacy Policy](https://policies.google.com/privacy).
+* **Children:** The app is not directed at children under 13 and does not knowingly collect information from anyone.
+* **Health & Medical Disclaimer:** Calbacus is an informational utility tool designed for general wellness and fitness tracking. It is not a medical device, and the information provided (including calorie targets, macro ratios, and exercise burn calculations) is for educational and informational purposes only and is not medical advice..
 
 ---
 
